@@ -1,8 +1,3 @@
----
-title: Blogging Like a Hacker
-labels: type:pullrequest
-assignees: bfct
----
 # Description
 Please describe the changes in this merge. If this is a sprint branch merge, describe the overall sprint goal, list sprint links, etc...
 
