@@ -26,3 +26,9 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 # Configuration Updates
 Please note any config/secrets updates that are linked to these changes
 - s3://control-worshiptrac/churchtrac/credentials.php - Add `'GEOCODIO_API_KEY' => '123456677u8'`
+
+---
+title: Blogging Like a Hacker
+labels: type:pullrequest
+assignees: bfct
+---
