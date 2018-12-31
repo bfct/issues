@@ -1,27 +1,28 @@
-<!--
-Thank you for your pull request. Please provide a description above and review
-the requirements below.
+# Description
+Please describe the changes in this merge. If this is a sprint branch merge, describe the overall sprint goal, list sprint links, etc...
 
-Bug fixes and new features should include tests and possibly benchmarks.
+# Issue(s)
 
-Contributors guide: ./CONTRIBUTING.md
--->
+* Fixes #32
+* Closes #49
+* Resolves #57
 
-<!-- _Please make sure to review and check all of these items:_ -->
+# Type of change
 
+Please delete options that are not relevant.
 
-##### Checklist
-<!-- Remove items that do not apply. For completed items, change [ ] to [x]. -->
+- Bug fix (non-breaking change which fixes an issue)
+- New feature (non-breaking change which adds functionality)
+- This change requires a documentation update
 
-- [ ] `make -j4 test` (UNIX), or `vcbuild test` (Windows) passes
-- [ ] tests and/or benchmarks are included
-- [ ] documentation is changed or added
-- [ ] commit message follows [commit guidelines](./doc/guides/contributing/pull-requests.md#commit-message-guidelines)
+# Testing
+(Disregard this section if this is a sprint branch merging to master)
+Please describe the tests that you ran to verify your changes. Provide instructions to reproduce. 
 
-<!-- _NOTE: these things are not required to open a PR and can be done afterwards / while the PR is open._ -->
+1. Test A
+2. Test B
+3. Test 3
 
-### Affected core subsystem(s)
-<!-- Please provide affected core subsystem(s). -->
-
-### Description of change
-<!-- Please provide a description of the change here. -->
+# Configuration Updates
+Please note any config/secrets updates that are linked to these changes
+- s3://control-worshiptrac/churchtrac/credentials.php - Add `'GEOCODIO_API_KEY' => '123456677u8'`
